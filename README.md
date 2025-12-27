@@ -1,0 +1,2 @@
+In this repo, we built a discrete-time multi-server multi-queue environment with deterministic service rate of 1, Bernoulli distribution for arrivals at each queue at each time, and server-to-queue switching delay of 1 for each pair.
+We used the implemented PPO algorithm from SB3 library to build the policy network, and also compared the results of the trained PPO with a greedy algorithm named Exhaustive-serve-longest.
